@@ -1,0 +1,15 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+# Python and OS artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Editor temporary files
+~$*
+*.swp

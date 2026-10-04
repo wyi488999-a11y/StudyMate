@@ -1,0 +1,4 @@
+source_id,filename_or_url,page_count,permission_status,sha256_or_version,notes
+S01,public_pdfs/01_rag.pdf,1,CC0 according to included LICENSE.md,21641824a14db9e37e87d06ed48b03e86f3f2ad2e4d1a2f5f8c7c84814a5a5ea,Supplied project source
+S02,public_pdfs/02_evaluation.pdf,1,CC0 according to included LICENSE.md,598210336c1c99d16ed22e510743c58ad504d3e60374582daf6ad25bf1f51f46,Supplied project source
+S03,public_pdfs/03_responsible_use.pdf,1,CC0 according to included LICENSE.md,f5ff18fffbc5cf65bca2e6f04326fb9120ae0559a0d696f2b6b0f6e0ef919e7c,Supplied project source

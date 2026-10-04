@@ -1,0 +1,21 @@
+question,mode,embedding_tokens,input_tokens_est,output_tokens_est,provider,listed_price_reference,actual_cost
+What does RAG do?,hosted_embedding_and_llm,373,441,41,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00009821
+Why is RAG useful?,hosted_embedding_and_llm,373,441,32,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00009281
+What should happen below the retrieval threshold?,hosted_embedding_and_llm,375,443,25,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008895
+What should a citation identify?,hosted_embedding_and_llm,373,441,15,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008261
+What two abstention measures are needed?,hosted_embedding_and_llm,375,443,41,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00009855
+What are the two checks for an evaluation answer?,hosted_embedding_and_llm,377,445,13,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008209
+What baseline should RAG be compared against?,hosted_embedding_and_llm,376,444,17,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008432
+Why separate independent questions?,hosted_embedding_and_llm,372,440,53,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00010524
+How should results be reported?,hosted_embedding_and_llm,373,441,62,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00011081
+Who is StudyMate intended for?,hosted_embedding_and_llm,374,442,15,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008278
+What is StudyMate not for?,hosted_embedding_and_llm,374,442,24,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008818
+What contributes to hosted answer cost?,hosted_embedding_and_llm,374,442,44,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00010018
+Name a retrieval failure.,hosted_embedding_and_llm,372,440,27,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008964
+What mitigation makes answers inspectable?,hosted_embedding_and_llm,374,442,22,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008698
+Why retain a refusal threshold?,hosted_embedding_and_llm,373,441,53,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00010541
+Does RAG use trusted documents?,hosted_embedding_and_llm,374,442,14,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008218
+Should the system guess when evidence is weak?,hosted_embedding_and_llm,376,444,24,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008852
+Can a plausible answer still be wrong?,hosted_embedding_and_llm,375,443,13,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008175
+Should diagnostic and blind results be combined?,hosted_embedding_and_llm,375,443,22,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008715
+How can the system reduce unsupported answers?,hosted_embedding_and_llm,375,443,55,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00010695

@@ -1,0 +1,11 @@
+id,set,question,expected_anchor,expected_source,author_confirmation
+S01,blind,When a learner asks about something unsupported by the notes what should the tool return?,not found,01_rag.md,Written by a classmate who had not seen the index; confirmed by project owner
+S02,blind,Why is it useful to show the source with an answer?,source and page,01_rag.md,Written by a classmate who had not seen the index; confirmed by project owner
+S03,blind,What is the first operation in a retrieval augmented answer?,retrieves relevant passages,01_rag.md,Written by a classmate who had not seen the index; confirmed by project owner
+S04,blind,Can a response be factually plausible but still fail evaluation?,cite the wrong source,02_evaluation.md,Written by a classmate who had not seen the index; confirmed by project owner
+S05,blind,Which comparison should be run alongside the RAG system?,keyword-search baseline,02_evaluation.md,Written by a classmate who had not seen the index; confirmed by project owner
+S06,blind,Why should the builder not treat their own questions as final proof?,reuse the source wording,02_evaluation.md,Written by a classmate who had not seen the index; confirmed by project owner
+S07,blind,What type of use is StudyMate intended to support?,study-support tool,03_responsible_use.md,Written by a classmate who had not seen the index; confirmed by project owner
+S08,blind,What two model related quantities make up hosted-answer cost?,embedding tokens,03_responsible_use.md,Written by a classmate who had not seen the index; confirmed by project owner
+S09,blind,What is a dangerous hidden failure for this system?,irrelevant chunk,03_responsible_use.md,Written by a classmate who had not seen the index; confirmed by project owner
+S10,blind,What should be inspected after the system gets a citation wrong?,reviewing errors,03_responsible_use.md,Written by a classmate who had not seen the index; confirmed by project owner

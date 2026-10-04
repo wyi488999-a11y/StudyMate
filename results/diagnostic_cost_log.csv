@@ -1,0 +1,21 @@
+question,mode,embedding_tokens,input_tokens_est,output_tokens_est,provider,listed_price_reference,actual_cost
+What does RAG do?,offline_extractive,0,458,58,offline,Fill with provider price on run date,Fill after API run
+Why is RAG useful?,offline_extractive,0,458,58,offline,Fill with provider price on run date,Fill after API run
+What should happen below the retrieval threshold?,offline_extractive,0,458,65,offline,Fill with provider price on run date,Fill after API run
+What should a citation identify?,offline_extractive,0,458,53,offline,Fill with provider price on run date,Fill after API run
+What two abstention measures are needed?,offline_extractive,0,458,46,offline,Fill with provider price on run date,Fill after API run
+What are the two checks for an evaluation answer?,offline_extractive,0,458,51,offline,Fill with provider price on run date,Fill after API run
+What baseline should RAG be compared against?,offline_extractive,0,458,57,offline,Fill with provider price on run date,Fill after API run
+Why separate independent questions?,offline_extractive,0,458,64,offline,Fill with provider price on run date,Fill after API run
+How should results be reported?,refusal,0,0,0,offline,Fill with provider price on run date,Fill after API run
+Who is StudyMate intended for?,offline_extractive,0,458,30,offline,Fill with provider price on run date,Fill after API run
+What is StudyMate not for?,offline_extractive,0,458,65,offline,Fill with provider price on run date,Fill after API run
+What contributes to hosted answer cost?,offline_extractive,0,458,66,offline,Fill with provider price on run date,Fill after API run
+Name a retrieval failure.,offline_extractive,0,458,70,offline,Fill with provider price on run date,Fill after API run
+What mitigation makes answers inspectable?,refusal,0,0,0,offline,Fill with provider price on run date,Fill after API run
+Why retain a refusal threshold?,offline_extractive,0,458,55,offline,Fill with provider price on run date,Fill after API run
+Does RAG use trusted documents?,offline_extractive,0,458,58,offline,Fill with provider price on run date,Fill after API run
+Should the system guess when evidence is weak?,offline_extractive,0,458,65,offline,Fill with provider price on run date,Fill after API run
+Can a plausible answer still be wrong?,offline_extractive,0,458,63,offline,Fill with provider price on run date,Fill after API run
+Should diagnostic and blind results be combined?,offline_extractive,0,458,50,offline,Fill with provider price on run date,Fill after API run
+How can the system reduce unsupported answers?,offline_extractive,0,458,58,offline,Fill with provider price on run date,Fill after API run

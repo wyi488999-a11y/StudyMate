@@ -1,0 +1,3 @@
+set,queries,calculated_usd,mean_usd,embedding_tokens,input_tokens,output_tokens
+hosted_diagnostic,20,0.00184331,9.216549999999999e-05,7483,8843,612
+hosted_blind,10,0.00089853,8.985300000000001e-05,3789,4469,254

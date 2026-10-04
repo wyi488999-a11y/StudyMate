@@ -1,0 +1,3 @@
+question,mode,embedding_tokens,input_tokens_est,output_tokens_est,provider,listed_price_reference,actual_cost
+What does retrieval augmented generation do?,hosted_embedding_and_llm,374,442,51,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00010438
+Who won the football match?,refusal,373,0,0,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00000746

@@ -1,0 +1,21 @@
+id,set,question,expected_anchor,expected_source
+D01,diagnostic,What does RAG do?,retrieves relevant passages,01_rag.md
+D02,diagnostic,Why is RAG useful?,grounded in documents,01_rag.md
+D03,diagnostic,What should happen below the retrieval threshold?,not found,01_rag.md
+D04,diagnostic,What should a citation identify?,source and page,01_rag.md
+D05,diagnostic,What two abstention measures are needed?,Abstention rate,01_rag.md
+D06,diagnostic,What are the two checks for an evaluation answer?,Correctness and citation correctness,02_evaluation.md
+D07,diagnostic,What baseline should RAG be compared against?,keyword-search baseline,02_evaluation.md
+D08,diagnostic,Why separate independent questions?,credible blind test,02_evaluation.md
+D09,diagnostic,How should results be reported?,counts such as 8/10,02_evaluation.md
+D10,diagnostic,Who is StudyMate intended for?,learners,03_responsible_use.md
+D11,diagnostic,What is StudyMate not for?,grading system,03_responsible_use.md
+D12,diagnostic,What contributes to hosted answer cost?,embedding tokens,03_responsible_use.md
+D13,diagnostic,Name a retrieval failure.,irrelevant chunk,03_responsible_use.md
+D14,diagnostic,What mitigation makes answers inspectable?,source excerpts,03_responsible_use.md
+D15,diagnostic,Why retain a refusal threshold?,notes do not contain,03_responsible_use.md
+D16,diagnostic,Does RAG use trusted documents?,trusted document collection,01_rag.md
+D17,diagnostic,Should the system guess when evidence is weak?,rather than guess,01_rag.md
+D18,diagnostic,Can a plausible answer still be wrong?,cite the wrong source,02_evaluation.md
+D19,diagnostic,Should diagnostic and blind results be combined?,report the diagnostic set and blind set separately,02_evaluation.md
+D20,diagnostic,How can the system reduce unsupported answers?,reviewing errors,03_responsible_use.md

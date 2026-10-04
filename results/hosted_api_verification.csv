@@ -1,0 +1,3 @@
+question,answer,citations,refused,mode,embedding_tokens,input_tokens,output_tokens
+What does retrieval augmented generation do?,"Retrieval augmented generation, or RAG, first retrieves relevant passages from a trusted document collection, and a language model then writes an answer using those passages as evidence. RAG is useful when an answer must be grounded in documents that the system owner controls.","01_rag.pdf, page 1; 02_evaluation.pdf, page 1; 03_responsible_use.pdf, page 1",False,hosted_embedding_and_llm,374,442,51
+Who won the football match?,not found,None,True,refusal,373,0,0

@@ -1,0 +1,5 @@
+set,system,total,anchor_and_source_matches,source_presence,refusals,refusal_rate,counterfactual_error_among_refused
+diagnostic,hosted_rag,20,17,20,0,0.0,N/A (not recorded)
+diagnostic,keyword,20,6,17,2,0.1,N/A (not recorded)
+blind,hosted_rag,10,8,10,0,0.0,N/A (not recorded)
+blind,keyword,10,3,8,0,0.0,N/A (not recorded)

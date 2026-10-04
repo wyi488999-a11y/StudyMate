@@ -1,0 +1,11 @@
+flowchart LR
+ Q[Learner question] --> P{Credential request}
+ P -- Yes --> R[Policy refusal]
+ P -- No --> C[TF IDF or hosted embedding retrieval]
+ A[Approved PDFs] --> B[Page chunks]
+ B --> C
+ C --> D{Top score at least 0.12}
+ D -- No --> E[not found]
+ D -- Yes --> F[Extractive answer or hosted LLM]
+ F --> G[Answer plus candidate sources and excerpts]
+ G --> H[Evaluation CSV and manifest]

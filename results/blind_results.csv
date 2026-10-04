@@ -1,0 +1,47 @@
+id,set,system,question,answer,citations,score,refused,correct,citation_correct,correct_and_cited
+S01,blind,rag,When a learner asks about something unsupported by the notes what should the tool return?,"Scope and intended use
+StudyMate is a study-support tool for learners who need to locate explanations in supplied
+notes. The system can fail when the notes do not contain the answer, when retrieval
+selects an irrelevant chunk, or when a model ignores evidence.","03_responsible_use.pdf, page 1; 01_rag.pdf, page 1; 02_evaluation.pdf, page 1",0.285,False,False,True,False
+S01,blind,keyword,When a learner asks about something unsupported by the notes what should the tool return?,"Scope and intended use StudyMate is a study-support tool for learners who need to locate explanations in supplied notes. It is not a grading system, a source of medical or financial advice, or a tool for handling personal data.","03_responsible_use.pdf, page 1",0.285,False,False,False,False
+S02,blind,rag,Why is it useful to show the source with an answer?,"RAG is useful when an answer must be grounded in documents that the system
+owner controls. Evaluation design
+An evaluation question needs an expected answer and an expected source.","01_rag.pdf, page 1; 02_evaluation.pdf, page 1; 03_responsible_use.pdf, page 1",0.217,False,False,True,False
+S02,blind,keyword,Why is it useful to show the source with an answer?,"Retrieval augmented generation Retrieval augmented generation, or RAG, first retrieves relevant passages from a trusted document collection. A language model then writes an answer using those passages as evidence.","01_rag.pdf, page 1",0.217,False,False,True,False
+S03,blind,rag,What is the first operation in a retrieval augmented answer?,"Retrieval augmented generation
+Retrieval augmented generation, or RAG, first retrieves relevant passages from a trusted
+document collection. The system can fail when the notes do not contain the answer, when retrieval
+selects an irrelevant chunk, or when a model ignores evidence.","01_rag.pdf, page 1; 03_responsible_use.pdf, page 1; 02_evaluation.pdf, page 1",0.398,False,True,True,True
+S03,blind,keyword,What is the first operation in a retrieval augmented answer?,"Retrieval augmented generation Retrieval augmented generation, or RAG, first retrieves relevant passages from a trusted document collection. A language model then writes an answer using those passages as evidence.","01_rag.pdf, page 1",0.398,False,True,True,True
+S04,blind,rag,Can a response be factually plausible but still fail evaluation?,"Correctness and
+citation correctness are separate checks: an answer may be plausible but cite the wrong
+source. The system can fail when the notes do not contain the answer, when retrieval
+selects an irrelevant chunk, or when a model ignores evidence.","02_evaluation.pdf, page 1; 03_responsible_use.pdf, page 1; 01_rag.pdf, page 1",0.250,False,False,True,False
+S04,blind,keyword,Can a response be factually plausible but still fail evaluation?,Evaluation design An evaluation question needs an expected answer and an expected source. Correctness and citation correctness are separate checks: an answer may be plausible but cite the wrong source.,"02_evaluation.pdf, page 1",0.250,False,True,True,True
+S05,blind,rag,Which comparison should be run alongside the RAG system?,"A keyword-search baseline should run on exactly the same questions as the RAG
+system. RAG is useful when an answer must be grounded in documents that the system
+owner controls.","02_evaluation.pdf, page 1; 01_rag.pdf, page 1; 03_responsible_use.pdf, page 1",0.164,False,True,True,True
+S05,blind,keyword,Which comparison should be run alongside the RAG system?,Evaluation design An evaluation question needs an expected answer and an expected source. Correctness and citation correctness are separate checks: an answer may be plausible but cite the wrong source.,"02_evaluation.pdf, page 1",0.164,False,False,True,False
+S06,blind,rag,Why should the builder not treat their own questions as final proof?,"Independent test questions
+Questions written by the system builder can help tune prompts and thresholds, but they may
+reuse the source wording. The system can fail when the notes do not contain the answer, when retrieval
+selects an irrelevant chunk, or when a model ignores evidence.","02_evaluation.pdf, page 1; 03_responsible_use.pdf, page 1; 01_rag.pdf, page 1",0.284,False,True,True,True
+S06,blind,keyword,Why should the builder not treat their own questions as final proof?,Evaluation design An evaluation question needs an expected answer and an expected source. Correctness and citation correctness are separate checks: an answer may be plausible but cite the wrong source.,"02_evaluation.pdf, page 1",0.284,False,False,True,False
+S07,blind,rag,What type of use is StudyMate intended to support?,"Scope and intended use
+StudyMate is a study-support tool for learners who need to locate explanations in supplied
+notes.","03_responsible_use.pdf, page 1; 01_rag.pdf, page 1; 02_evaluation.pdf, page 1",0.247,False,True,True,True
+S07,blind,keyword,What type of use is StudyMate intended to support?,"Scope and intended use StudyMate is a study-support tool for learners who need to locate explanations in supplied notes. It is not a grading system, a source of medical or financial advice, or a tool for handling personal data.","03_responsible_use.pdf, page 1",0.247,False,True,True,True
+S08,blind,rag,What two model related quantities make up hosted-answer cost?,"Cost and limitations
+The cost of one hosted answer includes embedding tokens plus language-model input and
+output tokens. The system can fail when the notes do not contain the answer, when retrieval
+selects an irrelevant chunk, or when a model ignores evidence.","03_responsible_use.pdf, page 1; 01_rag.pdf, page 1; 02_evaluation.pdf, page 1",0.350,False,True,True,True
+S08,blind,keyword,What two model related quantities make up hosted-answer cost?,"Scope and intended use StudyMate is a study-support tool for learners who need to locate explanations in supplied notes. It is not a grading system, a source of medical or financial advice, or a tool for handling personal data.","03_responsible_use.pdf, page 1",0.350,False,False,True,False
+S09,blind,rag,What is a dangerous hidden failure for this system?,"The system can fail when the notes do not contain the answer, when retrieval
+selects an irrelevant chunk, or when a model ignores evidence. RAG is useful when an answer must be grounded in documents that the system
+owner controls.","03_responsible_use.pdf, page 1; 01_rag.pdf, page 1; 02_evaluation.pdf, page 1",0.146,False,True,True,True
+S09,blind,keyword,What is a dangerous hidden failure for this system?,"Scope and intended use StudyMate is a study-support tool for learners who need to locate explanations in supplied notes. It is not a grading system, a source of medical or financial advice, or a tool for handling personal data.","03_responsible_use.pdf, page 1",0.146,False,False,True,False
+S10,blind,rag,What should be inspected after the system gets a citation wrong?,"Correctness and
+citation correctness are separate checks: an answer may be plausible but cite the wrong
+source. The system can fail when the notes do not contain the answer, when retrieval
+selects an irrelevant chunk, or when a model ignores evidence.","02_evaluation.pdf, page 1; 01_rag.pdf, page 1; 03_responsible_use.pdf, page 1",0.164,False,False,True,False
+S10,blind,keyword,What should be inspected after the system gets a citation wrong?,Evaluation design An evaluation question needs an expected answer and an expected source. Correctness and citation correctness are separate checks: an answer may be plausible but cite the wrong source.,"02_evaluation.pdf, page 1",0.164,False,False,False,False

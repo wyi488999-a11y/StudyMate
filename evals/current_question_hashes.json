@@ -1,0 +1,8 @@
+{
+  "scope": "Current question-file hashes for reproducibility",
+  "sha256": {
+    "evals/blind_questions.csv": "fb3450fa4fa3e1314bc64ca61d374773c6b8496df2abf6caa3d099d0b2a54c7b",
+    "evals/developer_safety_questions.csv": "b0071cc3642153477abe142fd74accda09f79acaad4e3920cc552ca1b7086a1b",
+    "evals/diagnostic_questions.csv": "2b43e04dcb0ccfb964711b8e7fd7d1c7bc125676e568fb31f4ff2d7b8a50ecb9"
+  }
+}

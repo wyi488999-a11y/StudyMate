@@ -1,0 +1,11 @@
+question,mode,embedding_tokens,input_tokens_est,output_tokens_est,provider,listed_price_reference,actual_cost
+When a learner asks about something unsupported by the notes what should the tool return?,hosted_embedding_and_llm,383,451,17,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008551
+Why is it useful to show the source with an answer?,hosted_embedding_and_llm,379,447,50,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00010463
+What is the first operation in a retrieval augmented answer?,hosted_embedding_and_llm,378,446,19,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008586
+Can a response be factually plausible but still fail evaluation?,hosted_embedding_and_llm,379,447,20,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008663
+Which comparison should be run alongside the RAG system?,hosted_embedding_and_llm,378,446,17,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008466
+Why should the builder not treat their own questions as final proof?,hosted_embedding_and_llm,380,448,50,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00010480
+What type of use is StudyMate intended to support?,hosted_embedding_and_llm,378,446,18,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008526
+What two model related quantities make up hosted-answer cost?,hosted_embedding_and_llm,378,446,22,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008766
+What is a dangerous hidden failure for this system?,hosted_embedding_and_llm,377,445,21,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008689
+What should be inspected after the system gets a citation wrong?,hosted_embedding_and_llm,379,447,20,openai/gpt-4o-mini,gpt-4o-mini: $0.15 input/$0.60 output; text-embedding-3-small: $0.02 per 1M tokens,$0.00008663
